@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-link a li{
+    color: white;
+}
+/*p-box*/
+.container{
+    /* border: 2px solid black; */
+    margin-top: 4%;
+    margin-left: 8%;
+    
+}
+.p-box{
+     border: 3px solid red; 
+     width: 40%;
+     float: left;
+     color: red;
+     margin-left: 50px;
+     margin-bottom: 6px;
+     height: 35em;
+     padding: 5px;
+     background-color: #cccccc;
+
+}
+.p-box h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.p-box p{
+    line-height: 1.25em;
+    text-align: justify;
+}
+.p-box a{
+    text-decoration: none;
+    color: blue;
+}

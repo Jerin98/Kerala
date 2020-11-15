@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  
+  height: 3em;
+}
+
+body{
+  background-size: cover;
+}
+.head-tag{
+  float: right;
+  margin-top: 10px;
+  margin-right: 80px;
+}
+.head-tag a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  border: 1px solid blue;
+  padding: 3px;
+  margin-right: 8px;
+}
+.head-tag a:hover{
+  background-color: red;
+  color: black;
+  transition: 0.8s ease-in-out;
+}
+.form-inline{
+  list-style: none;
+  float: right;
+}
+
+.head-tag li a{
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-style: oblique;
+}

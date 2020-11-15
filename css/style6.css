@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.myMargin{
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+.gallery a{
+    width: 20px;
+    height: 20px;
+}
+
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color:blue;
+    background-color:white;
+    margin: 0;
+    text-align: center;
+}
+.car div {
+    height: 100%;
+}
+/*footer*/
+footer{
+    background-color:black;
+    color:white;
+    height: 1px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+footer h2{
+    text-align: center;
+}
