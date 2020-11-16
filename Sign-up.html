@@ -115,10 +115,10 @@
 
   <script language="javascript">
     function passwordChanged() {
-        var strength = document.getElementById(`strength`);
-        var strongRegex = new RegExp("^(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");
-        var mediumRegex = new RegExp("^(?=.{7,})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$", "g");
-        var enoughRegex = new RegExp("(?=.{5,}).*", "g");
+        var strength = document.getElementById('strength');
+        var strongRegex = new RegExp("^(?=.{8,})|(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");
+        var mediumRegex = new RegExp("^(?=.{6,})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$", "g");
+        var enoughRegex = new RegExp("(?=.{4,}).*", "g");
         var pwd = document.getElementById("password");
         
       if (pwd.value.length == 0) {
@@ -138,8 +138,8 @@
             
         } 
         else if (mediumRegex.test(pwd.value)) {
-            strength.innerHTML = '<span style="color:orange">Medium!</span';
-           return true;
+            strength.innerHTML = '<span style="color:orange">Medium!</span>';
+           return false;
         } 
       else {
             strength.innerHTML = '<span style="color:red">Weak!</span>';
